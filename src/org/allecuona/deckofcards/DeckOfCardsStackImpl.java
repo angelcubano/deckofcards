@@ -1,5 +1,7 @@
 package org.allecuona.deckofcards;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Stack;
 
 /**
@@ -7,10 +9,11 @@ import java.util.Stack;
  */
 public class DeckOfCardsStackImpl implements DeckOfCards{
 
-    private Stack<AbstractCard> cards;
+    private Deque<AbstractCard> cards;
 
     public DeckOfCardsStackImpl() {
-        cards = new Stack<AbstractCard>();
+        cards = new ArrayDeque<AbstractCard>() {
+        };
     }
 
     public void createDeckOfCard(){
@@ -27,13 +30,6 @@ public class DeckOfCardsStackImpl implements DeckOfCards{
         }
     }
 
-    public Stack<AbstractCard> getCards() {
-        return cards;
-    }
-
-    public void setCards(Stack<AbstractCard> cards) {
-        this.cards = cards;
-    }
 
     @Override
     public int getTotalCards() {
@@ -42,7 +38,7 @@ public class DeckOfCardsStackImpl implements DeckOfCards{
 
     @Override
     public boolean hasCard() {
-        return !cards.empty();
+        return !cards.isEmpty();
     }
 
     @Override

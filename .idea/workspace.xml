@@ -49,9 +49,13 @@
       <file leaf-file-name="DeckOfCardsStackImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsStackImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0">
-              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-              <folding />
+            <state vertical-scroll-proportion="0.9">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/AbstractCard.java" />
         <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/SimpleCard.java" />
         <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCards.java" />
-        <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsStackImpl.java" />
         <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsListImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsStackImpl.java" />
       </list>
     </option>
   </component>
@@ -608,12 +612,12 @@
       <created>1456886340007</created>
       <option name="number" value="Default" />
       <updated>1456886340007</updated>
-      <workItem from="1456886343059" duration="3392000" />
+      <workItem from="1456886343059" duration="4181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3392000" />
+    <option name="totallyTimeSpent" value="4181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="71" width="1281" height="704" extended-state="0" />
@@ -683,14 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCards.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -718,11 +714,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsStackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0">
-          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.9">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
