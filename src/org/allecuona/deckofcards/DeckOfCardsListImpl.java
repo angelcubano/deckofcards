@@ -3,6 +3,7 @@ package org.allecuona.deckofcards;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -12,11 +13,8 @@ public class DeckOfCardsListImpl implements DeckOfCards {
 
     private List<AbstractCard> cards;
 
-    private int currentCard;
-
     public DeckOfCardsListImpl() {
-        cards = new ArrayList<AbstractCard>();
-        currentCard = 0;
+        cards = new LinkedList<AbstractCard>();
         this.createDeckOfCard();
     }
 
@@ -37,14 +35,6 @@ public class DeckOfCardsListImpl implements DeckOfCards {
         this.cards = cards;
     }
 
-    public int getCurrentCard() {
-        return currentCard;
-    }
-
-    public void setCurrentCard(int currentCard) {
-        this.currentCard = currentCard;
-    }
-
     @Override
     public void shuffle() {
         Collections.shuffle(cards);
@@ -52,20 +42,27 @@ public class DeckOfCardsListImpl implements DeckOfCards {
 
     @Override
     public int getTotalCards() {
-        return cards.size() - currentCard;
+        return cards.size();
     }
 
     @Override
     public boolean hasCard() {
-        return currentCard < cards.size();
+        return !cards.isEmpty();
     }
 
     @Override
-    public Card getCard() {
-        if (!cards.isEmpty()) {
-            return cards.get(currentCard++);
-        }
-        return null;
+    public Card getFirstCard() {
+        return cards.get(0);
     }
+
+    @Override
+    public Card getLastCard() {
+        return cards.get(cards.size() - 1);
+    }
+
+    public Card getCard(int position) {
+        return cards.get(position);
+    }
+
 
 }

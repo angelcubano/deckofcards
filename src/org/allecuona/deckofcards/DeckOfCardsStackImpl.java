@@ -17,7 +17,12 @@ public class DeckOfCardsStackImpl implements DeckOfCards{
     }
 
     public void createDeckOfCard(){
-
+        for (Suits suit : Suits.values()) {
+            for (Ranks rank : Ranks.values()) {
+                AbstractCard cardAux = new SimpleCard(suit,rank);
+                cards.push(cardAux);
+            }
+        }
     }
 
     @Override
@@ -42,8 +47,13 @@ public class DeckOfCardsStackImpl implements DeckOfCards{
     }
 
     @Override
-    public Card getCard() {
-        return cards.pop();
+    public Card getFirstCard() {
+            return cards.pop();
+    }
+
+    @Override
+    public Card getLastCard() {
+        return cards.removeLast();
     }
 
 }

@@ -11,6 +11,8 @@ public interface DeckOfCards {
 
      boolean hasCard();
 
-     Card getCard();
+     Card getFirstCard();
+
+     Card getLastCard();
 
 }
