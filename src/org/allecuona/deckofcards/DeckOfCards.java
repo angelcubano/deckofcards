@@ -3,7 +3,7 @@ package org.allecuona.deckofcards;
 /**
  * Deck of cards.
  *
- * This interface represent a deck of card and bring principal funtionalities
+ * This interface represent a deck of card and provide his principal funtionalities
  *
  * Created by angel on 01/03/16.
  */

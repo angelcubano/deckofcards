@@ -2,15 +2,25 @@ package org.allecuona.deckofcards;
 
 
 /**
+ * Abstract represantation of <tt>Card</tt> that implemented Card interface
+ *
  * Created by angel on 01/03/16.
  */
 public abstract class AbstractCard implements Card {
 
+    /**
+     * Suit of card
+     */
     private Suits suit;
 
+    /**
+     * Rank of card
+     */
     private Ranks rank;
 
-
+    /**
+     * Constructs of the class.
+     */
     public AbstractCard(Suits suits, Ranks ranks) {
         this.suit = suits;
         this.rank = ranks;

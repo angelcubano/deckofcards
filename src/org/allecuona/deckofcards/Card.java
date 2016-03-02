@@ -1,12 +1,26 @@
 package org.allecuona.deckofcards;
 
 /**
+ * Cards.
+ *
+ * This interface represent a card and provide his principal funtionalities
+ *
  * Created by angel on 01/03/16.
  */
 public interface Card extends Comparable{
 
-    public Suits getSuit();
+    /**
+     * Return the suits of card.
+     *
+     * @return the suits of card.
+     */
+    Suits getSuit();
 
-    public Ranks getRank();
+    /**
+     * Return the rank of card.
+     *
+     * @return the rank of card.
+     */
+    Ranks getRank();
 
 }
