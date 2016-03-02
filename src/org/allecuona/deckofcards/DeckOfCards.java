@@ -1,18 +1,52 @@
 package org.allecuona.deckofcards;
 
 /**
+ * Deck of cards.
+ *
+ * This interface represent a deck of card and bring principal funtionalities
+ *
  * Created by angel on 01/03/16.
  */
 public interface DeckOfCards {
 
-     void shuffle();
+    /**
+     * Shuffle the cards in the deck with the remaining cards.
+     *
+     */
+    void shuffle();
 
-     int getTotalCards();
+    /**
+     * Return a number of card in the current deck.
+     *
+     * @return a number of card in the current deck.
+     */
+    int getTotalCards();
 
-     boolean hasCard();
+    /**
+     * Return if exist card in the deck.
+     *
+     * @return <tt>true</tt> if exist card in the deck.
+     */
+    boolean hasCard();
 
-     Card getFirstCard();
+    /**
+     * Return the card that is on top of the deck.
+     *
+     * @return the card that is on top of the deck.
+     *
+     */
+    Card getFirstCard();
 
-     Card getLastCard();
+    /**
+     * Return the last card of the deck.
+     *
+     * @return the last card of the deck.
+     */
+    Card getLastCard();
 
+    /**
+     * Remove all element of the current deck and create a new deck.
+     *
+     */
+    void resetDeck();
 }
