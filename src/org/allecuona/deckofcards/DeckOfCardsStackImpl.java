@@ -40,7 +40,6 @@ public class DeckOfCardsStackImpl implements DeckOfCards{
      * Shuffle the cards in the deck with the remaining cards.
      *
      */
-    @Override
     public void shuffle() {
 
         List<AbstractCard> listAux = new LinkedList<AbstractCard>();
@@ -59,7 +58,6 @@ public class DeckOfCardsStackImpl implements DeckOfCards{
      *
      * @return a number of card in the current deck.
      */
-    @Override
     public int getTotalCards() {
         return cards.size();
     }
@@ -69,7 +67,6 @@ public class DeckOfCardsStackImpl implements DeckOfCards{
      *
      * @return <tt>true</tt> if exist card in the deck.
      */
-    @Override
     public boolean hasCard() {
         return !cards.isEmpty();
     }
@@ -80,7 +77,6 @@ public class DeckOfCardsStackImpl implements DeckOfCards{
      * @return the card that is on top of the deck.
      *
      */
-    @Override
     public Card getFirstCard() {
             return cards.pop();
     }
@@ -90,7 +86,6 @@ public class DeckOfCardsStackImpl implements DeckOfCards{
      *
      * @return the last card of the deck.
      */
-    @Override
     public Card getLastCard() {
         return cards.removeLast();
     }
@@ -99,7 +94,6 @@ public class DeckOfCardsStackImpl implements DeckOfCards{
      * Remove all element of the current deck and create a new deck.
      *
      */
-    @Override
     public void resetDeck() {
         while(!cards.isEmpty()){
             cards.pop();

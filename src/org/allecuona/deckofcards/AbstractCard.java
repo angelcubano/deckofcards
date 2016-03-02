@@ -34,12 +34,10 @@ public abstract class AbstractCard implements Card {
         this.rank = rank;
     }
 
-    @Override
     public Suits getSuit() {
         return suit;
     }
 
-    @Override
     public Ranks getRank() {
         return rank;
     }

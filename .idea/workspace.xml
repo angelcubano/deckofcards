@@ -23,55 +23,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DeckOfCards.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCards.java">
+      <file leaf-file-name="AbstractCard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/AbstractCard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="28" selection-end-column="7" />
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeckOfCardsStackImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsStackImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="100" selection-end-column="7" />
-              <folding>
-                <element signature="e#1195#1209#0" expanded="true" />
-                <element signature="e#2006#2007#0" expanded="true" />
-                <element signature="e#2044#2045#0" expanded="true" />
-                <element signature="e#2197#2198#0" expanded="true" />
-                <element signature="e#2238#2239#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ranks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/Ranks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeckOfCardsListImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsListImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="12" selection-end-column="33" />
-              <folding>
-                <element signature="e#1939#1940#0" expanded="true" />
-                <element signature="e#1974#1975#0" expanded="true" />
-                <element signature="e#2127#2128#0" expanded="true" />
-                <element signature="e#2177#2178#0" expanded="true" />
-                <element signature="e#2602#2603#0" expanded="true" />
-                <element signature="e#2644#2645#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -86,41 +43,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleCard.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeckOfCards.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCards.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeckOfCardsListImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsListImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeckOfCardsStackImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsStackImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+              <folding>
+                <element signature="e#1181#1195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleCard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/SimpleCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.4921875">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Suits.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/Suits.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0703125">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractCard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/AbstractCard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
-              <folding>
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -136,14 +96,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsArrayListImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsStackImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsListImpl.java" />
         <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/Ranks.java" />
         <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/Suits.java" />
+        <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/Card.java" />
         <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCards.java" />
+        <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsListImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsStackImpl.java" />
         <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/AbstractCard.java" />
         <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/SimpleCard.java" />
-        <option value="$PROJECT_DIR$/src/org/allecuona/deckofcards/Card.java" />
       </list>
     </option>
   </component>
@@ -687,12 +647,12 @@
       <created>1456886340007</created>
       <option name="number" value="Default" />
       <updated>1456886340007</updated>
-      <workItem from="1456886343059" duration="10730000" />
+      <workItem from="1456886343059" duration="12586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10730000" />
+    <option name="totallyTimeSpent" value="12586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -772,20 +732,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/Ranks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0703125">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/Suits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0703125">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/AbstractCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-          </folding>
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +767,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCards.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="28" selection-end-column="7" />
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -808,52 +775,25 @@
     <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="e#1939#1940#0" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
-            <element signature="e#2127#2128#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#2602#2603#0" expanded="true" />
-            <element signature="e#2644#2645#0" expanded="true" />
-          </folding>
+          <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/DeckOfCardsStackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="100" selection-end-column="7" />
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
           <folding>
-            <element signature="e#1195#1209#0" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
-            <element signature="e#2044#2045#0" expanded="true" />
-            <element signature="e#2197#2198#0" expanded="true" />
-            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#1181#1195#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/Ranks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/SimpleCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/allecuona/deckofcards/Suits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0703125">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.4921875">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>

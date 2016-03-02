@@ -21,7 +21,6 @@ public class SimpleCard extends AbstractCard {
      * than, equal to, or greater than the specified card.
      *
      */
-    @Override
     public int compareTo(Object obj) {
         SimpleCard simpleCard = (SimpleCard) obj;
 

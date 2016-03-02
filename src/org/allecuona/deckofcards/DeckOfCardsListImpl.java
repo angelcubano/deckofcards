@@ -45,7 +45,6 @@ public class DeckOfCardsListImpl implements DeckOfCards {
      * Shuffle the cards in the deck with the remaining cards.
      *
      */
-    @Override
     public void shuffle() {
         Collections.shuffle(cards);
     }
@@ -55,7 +54,6 @@ public class DeckOfCardsListImpl implements DeckOfCards {
      *
      * @return a number of card in the current deck.
      */
-    @Override
     public int getTotalCards() {
         return cards.size();
     }
@@ -65,7 +63,6 @@ public class DeckOfCardsListImpl implements DeckOfCards {
      *
      * @return <tt>true</tt> if exist card in the deck.
      */
-    @Override
     public boolean hasCard() {
         return !cards.isEmpty();
     }
@@ -76,7 +73,6 @@ public class DeckOfCardsListImpl implements DeckOfCards {
      * @return the card that is on top of the deck.
      *
      */
-    @Override
     public Card getFirstCard() {
         return cards.get(0);
     }
@@ -86,7 +82,6 @@ public class DeckOfCardsListImpl implements DeckOfCards {
      *
      * @return the last card of the deck.
      */
-    @Override
     public Card getLastCard() {
         return cards.get(cards.size() - 1);
     }
@@ -95,7 +90,6 @@ public class DeckOfCardsListImpl implements DeckOfCards {
      * Remove all element of the current deck and create a new deck.
      *
      */
-    @Override
     public void resetDeck() {
         while (!cards.isEmpty())
             cards.remove(0);
@@ -105,7 +99,7 @@ public class DeckOfCardsListImpl implements DeckOfCards {
     /**
      * Returns the card at the specified position in the deck.
      *
-     *@return the card at the specified position in the deck.
+     *@return the card at the specified position in th deck.
      */
     public Card getCard(int position) {
         return cards.get(position);
