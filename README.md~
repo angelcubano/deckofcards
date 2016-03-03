@@ -23,5 +23,6 @@ deck.shuffle();
 ## Get a card from deck
 deck.getFirstCard()
 
-###4. Project Demo
+###4. Testing library
+For testing library refers to https://github.com/angelcubano/deckofcardstest 
 
